@@ -18,7 +18,7 @@ namespace ByteBank.SistemaAgencia
             }
         }
 
-        public void ListaDeT(int capacidadeInicial = 5)
+        public Lista(int capacidadeInicial = 5)
         {
             _itens = new T[capacidadeInicial];
             _proximaPosicao = 0;
